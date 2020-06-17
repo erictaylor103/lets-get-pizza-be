@@ -19,13 +19,13 @@ To get the server running locally:
 
 **With Docker**
 - Clone this repo
-- Create a `.env` file with needed [environment variables](https://github.com/Lambda-School-Labs/lets-get-pizza-be#environment-varables)
+- Create a `.env` file with needed [environment variables](https://github.com/Lambda-School-Labs/lets-get-pizza-be#environment-variables)
 - run **docker-compose -d up** to install all required dependencies, create pg database, and start local server
 - run **docker exec -d plza-server sh -c  "npm run seed"** to seed the database (only need to do this on initial setup)
 - run **docker-compose down** to stop server
 
 **Without Docker**
-- Create a `.env` file with needed [environment variables](https://github.com/Lambda-School-Labs/lets-get-pizza-be#environment-varables)
+- Create a `.env` file with needed [environment variables](https://github.com/Lambda-School-Labs/lets-get-pizza-be#environment-variables)
 - **npm install** to install all required dependencies
 - Set up local pg database & connect in knexfile
 - **npm run server** to start the local server
